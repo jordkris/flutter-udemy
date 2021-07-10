@@ -58,8 +58,9 @@ class LoginScreenState extends State<LoginScreen> with ValidationMixin {
   }
 
   Widget submitButton() {
-    return RaisedButton(
-      color: Colors.blue,
+    // return RaisedButton( #deprecated
+    return ElevatedButton(
+      style: ElevatedButton.styleFrom(primary: Colors.blue),
       child: Text('Submit!'),
       onPressed: () {
         if (formKey.currentState.validate()) {

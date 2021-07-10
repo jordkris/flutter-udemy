@@ -1,6 +1,9 @@
 name: login_stateful
 description: A new Flutter project.
 
+environment:
+  sdk: ">=1.1.0 <3.0.0"
+
 dependencies:
   flutter:
     sdk: flutter
