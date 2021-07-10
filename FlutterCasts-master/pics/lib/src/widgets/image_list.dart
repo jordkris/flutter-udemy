@@ -3,13 +3,13 @@ import '../models/image_model.dart';
 
 class ImageList extends StatelessWidget {
   final List<ImageModel> images;
-
   ImageList(this.images);
 
-  Widget build(context) {
+  Widget build(contex) {
     return ListView.builder(
       itemCount: images.length,
-      itemBuilder: (context, int index) {
+      itemBuilder: (contex, int index) {
+        // return Image.network(images[index].url);
         return buildImage(images[index]);
       },
     );
@@ -22,6 +22,7 @@ class ImageList extends StatelessWidget {
       ),
       padding: EdgeInsets.all(20.0),
       margin: EdgeInsets.all(20.0),
+      // child: Image.network(image.url),
       child: Column(
         children: <Widget>[
           Padding(
