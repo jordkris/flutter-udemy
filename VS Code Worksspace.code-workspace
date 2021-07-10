@@ -5,6 +5,12 @@
 		},
 		{
 			"path": "Dart Fundamental"
+		},
+		{
+			"path": "FlutterCasts-master\\login_bloc"
+		},
+		{
+			"path": "FlutterCasts-master\\login_stateful"
 		}
 	],
 	"settings": {}
