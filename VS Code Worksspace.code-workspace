@@ -11,6 +11,15 @@
 		},
 		{
 			"path": "FlutterCasts-master\\login_stateful"
+		},
+		{
+			"path": "FlutterCasts-master\\converter"
+		},
+		{
+			"path": "FlutterCasts-master\\news"
+		},
+		{
+			"path": "FlutterCasts-master\\animation"
 		}
 	],
 	"settings": {}
