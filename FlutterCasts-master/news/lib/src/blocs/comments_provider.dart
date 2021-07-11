@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'comments_bloc.dart';
 export 'comments_bloc.dart';
+import 'package:flutter/widgets.dart';
 
 class CommentsProvider extends InheritedWidget {
   final CommentsBloc bloc;
@@ -12,8 +13,7 @@ class CommentsProvider extends InheritedWidget {
   bool updateShouldNotify(_) => true;
 
   static CommentsBloc of(BuildContext context) {
-    return (context.inheritFromWidgetOfExactType(CommentsProvider)
-            as CommentsProvider)
+    return (context.dependOnInheritedWidgetOfExactType<CommentsProvider>())
         .bloc;
   }
 }
