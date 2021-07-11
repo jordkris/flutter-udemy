@@ -28,7 +28,7 @@ class LoginScreen extends StatelessWidget {
           keyboardType: TextInputType.emailAddress,
           decoration: InputDecoration(
             hintText: 'you@example.com',
-            labelText: 'EMail Address',
+            labelText: 'Email Address',
             errorText: snapshot.error,
           ),
         );
@@ -56,9 +56,10 @@ class LoginScreen extends StatelessWidget {
     return StreamBuilder(
       stream: bloc.submitValid,
       builder: (context, snapshot) {
-        return RaisedButton(
-          child: Text('Login'),
-          color: Colors.blue,
+        // return RaisedButton( #deprecated
+        return ElevatedButton(
+          style: ElevatedButton.styleFrom(primary: Colors.blue),
+          child: Text('LOGIN'),
           onPressed: snapshot.hasData ? bloc.submit : null,
         );
       },
