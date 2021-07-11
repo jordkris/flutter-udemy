@@ -9,7 +9,6 @@ class LoginScreen extends StatefulWidget {
 
 class LoginScreenState extends State<LoginScreen> with ValidationMixin {
   final formKey = GlobalKey<FormState>();
-
   String email = '';
   String password = '';
 
@@ -22,7 +21,6 @@ class LoginScreenState extends State<LoginScreen> with ValidationMixin {
           children: [
             emailField(),
             passwordField(),
-            Container(margin: EdgeInsets.only(top: 25.0)),
             submitButton(),
           ],
         ),
@@ -32,11 +30,11 @@ class LoginScreenState extends State<LoginScreen> with ValidationMixin {
 
   Widget emailField() {
     return TextFormField(
-      keyboardType: TextInputType.emailAddress,
       decoration: InputDecoration(
         labelText: 'Email Address',
         hintText: 'you@example.com',
       ),
+      keyboardType: TextInputType.emailAddress,
       validator: validateEmail,
       onSaved: (String value) {
         email = value;
@@ -50,6 +48,7 @@ class LoginScreenState extends State<LoginScreen> with ValidationMixin {
         labelText: 'Password',
         hintText: 'Password',
       ),
+      obscureText: true,
       validator: validatePassword,
       onSaved: (String value) {
         password = value;
@@ -58,16 +57,20 @@ class LoginScreenState extends State<LoginScreen> with ValidationMixin {
   }
 
   Widget submitButton() {
-    // return RaisedButton( #deprecated
-    return ElevatedButton(
-      style: ElevatedButton.styleFrom(primary: Colors.blue),
-      child: Text('Submit!'),
-      onPressed: () {
-        if (formKey.currentState.validate()) {
-          formKey.currentState.save();
-          print('Time to post $email and $password to my API');
-        }
-      },
+    return Container(
+      margin: EdgeInsets.only(top: 25.0),
+      child: ElevatedButton(
+        child: Text('SUBMIT'),
+        style: ElevatedButton.styleFrom(primary: Colors.blue),
+        onPressed: () {
+          // formKey.currentState.reset();
+          // print(formKey.currentState.validate());
+          if (formKey.currentState.validate()) {
+            formKey.currentState.save();
+            print('Time to post $email and $password to my API');
+          }
+        },
+      ),
     );
   }
 }

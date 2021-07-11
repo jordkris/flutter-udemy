@@ -23,27 +23,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6fca20a-5df1-42e6-b5b3-76c2076f7a60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/android/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login_bloc/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login_bloc/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login_bloc/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login_bloc/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login_bloc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login_bloc/android/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login_bloc/android/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login_bloc/android/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login_bloc/android/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login_bloc/android/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login_bloc/android/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login_bloc/android/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login_bloc/android/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login_bloc/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../login_bloc/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login_bloc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../login_bloc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login_bloc/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../login_bloc/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login_bloc/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../login_bloc/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login_bloc/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../login_bloc/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login_bloc/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../login_bloc/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../login_bloc/lib/src/blocs/provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../login_bloc/lib/src/blocs/provider.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../login_bloc/lib/src/screens/login_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../login_bloc/lib/src/screens/login_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login_bloc/login_bloc_android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../login_bloc/login_bloc_android.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login_bloc/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../login_bloc/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login_bloc/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../login_bloc/pubspec.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../login_bloc/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../login_bloc/test/widget_test.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/mixins/validation_mixin.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/mixins/validation_mixin.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/screens/login_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/screens/login_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_stateful_android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/login_stateful_android.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/widget_test.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../VS Code Worksspace.code-workspace" beforeDir="false" afterPath="$PROJECT_DIR$/../../VS Code Worksspace.code-workspace" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
