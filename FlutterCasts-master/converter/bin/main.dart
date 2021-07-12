@@ -1,6 +1,6 @@
 import 'dart:io';
 import 'package:prompter_sg/prompter_sg.dart';
-import 'package:converter/src/converter.dart';
+import 'package:converter/src/widgets/converter.dart';
 
 void main() {
   final prompter = new Prompter();
